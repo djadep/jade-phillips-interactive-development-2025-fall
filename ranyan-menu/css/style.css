@@ -1,0 +1,160 @@
+html{
+    font-size:7px;
+    line-height: 1.3;
+}
+body{
+    margin-right: 0px;
+    margin: calc(2rem * 1.3);
+    font-size: 0;
+}
+@font-face {
+    font-family: "header";
+    src: url(../fonts/Jakusty\ Display.otf), format(".otf");
+}
+@font-face {
+    font-family: "subhead";
+    src: url(../fonts/Chunko\ Bold\ Demo.otf), format("otf");
+}
+@font-face {
+    font-family: "body";
+    src: url(../fonts/Yuanti-SC-Regular.ttf), format(".ttf");
+}
+p{
+    font-family: "body";
+    font-size: 2rem;
+    margin-top: 0;
+}
+p1{
+    font-family: "body";
+    font-size: 2rem;
+}
+h{
+    font-family: "header";
+    font-size: 10rem;
+}
+h2{
+    font-family: "header";
+    font-size: 4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+h3{
+    font-family: "subhead";
+    font-size: 3rem;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.master-div{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width:calc(70% - 2rem * 1.3);
+    min-width: 400px;
+    max-width: 700px;
+    height:850px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    position: relative;
+    overflow: visible;
+}
+.header{
+    /* background-color: lightslategray; */
+    height: 20%;
+    width: 100%;
+    position: relative;
+    vertical-align: top;
+}
+.grid{
+    /* background-color: lightpink; */
+    height: 80%;
+    width: 50%;
+    /* border: 3px solid black; */
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align:top;
+    gap: 5px;
+}
+.menu-content{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    vertical-align: top;
+    justify-content: center;
+    display: inline;
+}
+.head-content{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.header-text{
+    display: inline-block;
+    vertical-align: middle ;
+    position: absolute;
+    text-align: right;
+    right: 20px;
+    bottom: 5px;
+}
+.img{
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    position:absolute;
+    bottom: 0;
+    left: 10px;
+}
+.ramen-head{
+    top: 5px;
+    bottom: 5px;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+.subhead{
+   color: black;
+   top: 0;
+   bottom: 0;
+   margin-left: 10px;
+}
+.subhead2{
+    color: black;
+    top: 0;
+    bottom: 0;
+    margin-left: 20px;
+    display: inline-block;
+    width: calc(80% - 20px);
+}
+.text-body{
+    display: inline-block;
+    width: calc(80% - 15px);
+    height: fit-content;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+}
+.price{
+    display: inline-block;
+    width: calc(20% - 15px);
+    height: fit-content;
+    margin-right: 15px;
+    text-align: right;
+}
+.green{
+    color: rgb(20, 97, 75);
+}
+.pink{
+    color: rgb(223, 36, 83);
+}
+.yellow{
+    color: rgb(249, 203, 124);
+}
+.light-pink{
+    color: rgb(242, 165, 186);
+}
