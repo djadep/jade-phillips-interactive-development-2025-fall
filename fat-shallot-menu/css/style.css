@@ -1,6 +1,7 @@
 html{
     font-size:7px;
     line-height: 1.3;
+    background-color: black;
 }
 @font-face {
     font-family: "menu-title";
@@ -51,10 +52,11 @@ h2{
 .master-div{
     /* box-sizing: border-box; */
     /* border: 5px solid black; */
+    background-color: white;
     width:calc(50% - 2rem * 1.3);
     min-width: 700px;
     max-width: 700px;
-    height: 1600px;
+    height: 1100px;
     align-self: center;
     /* display: inline-block; */
     margin-left: auto;
@@ -88,7 +90,7 @@ h2{
 }
 .logo-img{
     width: 25%;
-    height: 50%;
+    height: 70%;
     display: inline-block;
     position:absolute;
     bottom: 0;
