@@ -138,3 +138,15 @@ h3{
     height: auto;
     text-align: center;
 }
+.hotPink{
+    color: rgb(223, 36, 83);
+}
+.pink{
+    color: rgb(242, 165, 186);
+}
+.yellow{
+    color: rgb(249, 203, 124);
+}
+.green{
+    color: rgb(20, 97, 75);
+}
